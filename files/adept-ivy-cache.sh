@@ -14,4 +14,4 @@ java -jar $jar_file $output
 
 zip "$zip_file.zip" $output
 
-echo "send file: $zip_file to fredrik.ekholdt@typesafe.com"
+echo "send file: $zip_file.zip to fredrik.ekholdt@typesafe.com"
