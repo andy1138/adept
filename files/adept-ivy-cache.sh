@@ -14,4 +14,10 @@ java -jar $jar_file $output
 
 zip "$zip_file.zip" $output
 
+echo "cleaning up..."
+rm $jar_file
+rm $output
+
+
 echo "send file: $zip_file.zip to fredrik.ekholdt@typesafe.com"
+
