@@ -11,7 +11,7 @@ scala_version="2.9.2"
 adept_tools_version="0.1-SNAPSHOT"
 jar_name="adept-tools_$scala_version-$adept_tools_version.jar"
 jar_file="$tmp_dir/$jar_name"
-scala_lib="$HOME/.ivyd2/cache/org.scala-lang/scala-library/jars/scala-library-$scala_version.jar"
+scala_lib="$HOME/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-$scala_version.jar"
 main_class="adept.tools.AdeptIvyCacheReader"
 
 
