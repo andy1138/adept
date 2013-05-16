@@ -24,7 +24,7 @@ fi
 
 
 echo "downloading adept ivy scanner to: $jar_file..."
-#curl $jar_location > $jar_file
+curl $jar_location > $jar_file
 
 cmd="java -cp $scala_lib:$jar_file $main_class $output"
 echo "executing $cmd..."
