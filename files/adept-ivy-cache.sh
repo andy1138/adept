@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-tmp_dir=$PWD/tmp
+tmp_dir="$PWD/tmp-$(date +%s)"
 mkdir -p $tmp_dir
 
 
